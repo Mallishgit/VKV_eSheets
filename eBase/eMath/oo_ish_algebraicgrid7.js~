@@ -1,0 +1,14 @@
+<!--
+var numQues = 6;
+var numOptions = 04;
+var answers = new Array(numQues);
+var sel = new Array(numQues);
+var attempts =0;
+
+answers[0] = "+a+b-2b;-2b+a+b";
+answers[1] = "+a+b+2b²;+2b²+a+b";
+answers[2] = "-3a+a+b;+a+b-3a";
+answers[3] = "+4b+a+b-3a;+4b-3a+a+b;+a+b+4b-3a;+a+b-3a+4b;-3a+a+b+4b;-3a+4b+a+b";
+answers[4] = "+2b²-2b+4b;+2b²+4b-2b;-2b+2b²+4b;-2b+4b+2b²;+4b+2b²-2b;+4b-2b+2b²";
+answers[5] = "+a²+a+b-2b;+a²-2b+a+b;+a+b+a²-2b;+a+b-2b+a²;-2b+a+b+a²;-2b+a²+a+b";
+-->

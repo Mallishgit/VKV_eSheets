@@ -1,0 +1,309 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Dates</title>
+</head>
+
+<body>
+<script language="javascript">
+<!--
+var numQues = 15;
+var numOptions=0;
+var attempts = 0;
+
+var answers = new Array(15);
+answers[0] = "He is Jayakumar.";
+answers[1] = "She is Jyoti.";
+answers[2] = "She is Shashikala.";
+answers[3] = "He is Mutturaj.";
+answers[4] = "He is Murali.";
+answers[5] = "He is Venkatappa.";
+answers[6] = "She is Marakka.";
+answers[7] = "He is Ramappa.";
+answers[8] = "She is Sita.";
+answers[9] = "He is Ranganna.";
+answers[10] = "She is Gowrakka.";
+answers[11] = "She is Renuka.";
+answers[12] = "She is Rudramma.";
+answers[13] = "She is Sannamma.";
+answers[14] = "He is Avinash.";
+answers[15] = "She is Annapurana.";
+
+	function checkValues(form) 
+	{
+		if(attempts < 3)
+		{
+			var score = 0;
+			for (i=0; i<numQues; i++) 
+			{
+				var answer = form.elements[i].value;
+				var answer_length = answer.length;
+				var last_char = answer.charAt(answer_length-1);
+				if (last_char == " ") 
+				{
+					form.elements[i].value = (answer.substring(0, answer_length-1)) ; 
+					i=i-1;
+				}
+			}
+			for (i=0; i<numQues; i++) 
+			{
+				if (form.elements[i].value == answers[i]) 
+				{
+					score++;
+					form.elements[i].style.backgroundColor="";
+					//alert(answers[i])
+				}
+				else
+				{
+					form.elements[i].style.backgroundColor="#C0C0C0";
+				}
+			}
+			attempts = attempts*1 + 1
+			//score = Math.round(score/numQues*100);
+			form.percentage.value = score; //+ "%";
+			form.questions.value = numQues;
+			form.attempts.value = attempts;		
+		}
+		else
+		{
+			DisableAll(form,"True")
+		}
+
+	}
+	  
+
+function showAnswers(form)
+{
+  checkValues(form);
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.GradeMe.disabled = "True";
+  DisableAll(form,"True")
+  form.solutions.value = correctAnswers;
+}
+
+
+function resetAll(form) 
+{
+//  form.reset;
+  DisableAll(form,"False")
+  for (i=0; i<numQues; i++) {
+       form.elements[i].style.backgroundColor="";
+	}
+}
+
+function DisableAll(form,bVal) 
+{
+	form.reset;
+  for (i=0; i<numQues; i++) {
+       form.elements[i].disabled = bVal;
+	}
+}
+// -->
+
+</script>
+
+<form method="POST" action="--WEBBOT-SELF--">
+  <!--webbot bot="SaveResults"
+  U-File="D:\aroon\English\worksheets\web\_private\form_results.txt"
+  S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+  <p align="center">&nbsp;</p>
+  <table border="1" width="900" height="542">
+    <tr>
+      <td width="100%" height="19" background="../images/bgd.jpg" colspan="3">
+        <p align="center"><font size="4" color="#FFFFFF"><b>Pronouns -3&nbsp;<br>
+        </b></font></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="3%" height="486" background="../images/bgd.jpg">&nbsp;</td>
+      <td width="95%" height="486" align="center">
+        <p><span style="background-color: #FFCC99"><font face="Arial" size="4">See
+        the example given below</font></span></p>
+        <table border="1" width="800" height="769">
+          <tr>
+            <td width="800" align="center" height="28" colspan="2" bgcolor="#CC3300">
+              <p align="center"><font color="#FFFFFF" face="Arial" size="4">Read
+              the names and correct pronouns to form simple sentences.</font></td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="28" bgcolor="#FFCC99">
+              <p align="center">
+              <font face="Arial" size="5">Chinamma&nbsp;&nbsp;&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </td>
+            <td width="495" align="center" height="28" bgcolor="#FFCC99">
+              <font face="Arial" size="5">She is Chinamma.</font>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <p><font size="5" face="Arial">Jayakumar</font></p>
+            </td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">1) <input type="text" name="T4" size="34" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Jyoti</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">2)&nbsp; <input type="text" name="T6" size="33" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <p align="left"><font face="Arial" size="5">Shashikala</font></p>
+            </td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">3) <input type="text" name="T16" size="33" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Mutturaj</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">4)&nbsp;<input type="text" name="T10" size="33" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Murali</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">5)&nbsp; <input type="text" name="T12" size="33" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Venkatappa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">6)&nbsp; <input type="text" name="T18" size="33" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Marakka</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">7)&nbsp; <input type="text" name="T14" size="34" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Ramappa</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">8)&nbsp; <input type="text" name="T22" size="35" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Sita&nbsp;&nbsp;</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">9)&nbsp; <input type="text" name="T47" size="36" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Ranganna</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">10)&nbsp; <input type="text" name="T26" size="38" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">&nbsp;Gowrakka</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">11)&nbsp; <input type="text" name="T28" size="40" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="52">
+              <font face="Arial" size="5">&nbsp;Renuka&nbsp;</font></td>
+            <td width="495" align="center" height="52">
+            <font face="Arial" size="5">12)&nbsp; <input type="text" name="T31" size="40" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">&nbsp;Rudramma&nbsp;&nbsp;&nbsp;</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">13)&nbsp; <input type="text" name="T33" size="41" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Sannamma&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">14)&nbsp; <input type="text" name="T43" size="42" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            <p>&nbsp;</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Avinash</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">15)&nbsp; <input type="text" name="T46" size="42" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            </td>
+          </tr>
+          <tr>
+            <td width="205" align="left" height="51">
+              <font face="Arial" size="5">Annapurana</font></td>
+            <td width="495" align="center" height="51">
+            <font face="Arial" size="5">16)&nbsp; <input type="text" name="T41" size="41" style="font-family: Arial; font-size: 14pt; text-align: Center"></font>
+            </td>
+          </tr>
+        </table>
+        <p><b><font color="#CC3300" size="5" face="Arial">Total questions.</font>
+        = </b><input size="5" name="questions" readonly="True"><b><font face="BRH Kannada" color="#CC3300" size="5"><br>
+        </font><font color="#CC3300" size="5" face="Arial">Number of attempts.</font>&nbsp; =</b> <input size="5" name="attempts" readonly="True"><b><font face="BRH Kannada" color="#CC3300" size="5"><br>
+        </font><font color="#CC3300" size="5" face="Arial">Correct answers.</font>&nbsp; =</b> <input size="5" name="percentage" readonly="True"></p>
+        <p><br>
+        <b><u><font color="#FF0000" size="5" face="Arial">Note</font><font face="BRH Kannada" color="#FF0000" size="5">:</font></u><font face="BRH Kannada" size="4" color="#FF0000">
+        </font></b><font size="4" face="Arial">This page will lock after 3
+        &quot;<font color="#FF0000">Grade me</font>&quot; attempts.</font><b><br>
+        </b><input onclick="checkValues(this.form)" value="Grade Me" type="button" name="GradeMe" style="font-family: Arial; font-size: 14pt">&nbsp;&nbsp;&nbsp;</p>
+        <p><input value="Clear all" type="reset" onclick="resetAll(this.form)" name="Clear" style="font-family: Arial; font-size: 14pt"></p>
+        <p><b><u><font color="#FF0000" size="5" face="Arial">Note</font><font face="BRH Kannada" color="#FF0000" size="5">:</font></u><font face="BRH Kannada" color="#FF0000" size="5">
+        </font></b><font size="4" face="Arial">Pressing &quot;Show Answers&quot;
+        will list answers in the box below.&nbsp;<br>
+        It will also lock the page.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input onclick="showAnswers(this.form)" value="Show Answers" type="button" name="ShowAnswers" style="font-family: Arial; font-size: 14pt">&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p><br>
+        <br>
+        <textarea type="hidden" name="solutions" rows="11" wrap="virtual" cols="62" readonly="True"></textarea>&nbsp;<br>
+        </p>
+        <p><font face="Arial" size="4"><a href="oo_pronoun4.htm">Pronoun-4</a></font>
+      </td>
+      <td width="2%" height="486" background="../images/bgd.jpg">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="100%" height="19" colspan="3" background="../images/bgd.jpg">&nbsp;</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+
+</body>
+
+</html>

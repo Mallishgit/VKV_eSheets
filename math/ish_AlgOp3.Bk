@@ -1,0 +1,25 @@
+<!--
+var numQues = 10;
+var numOptions = 04;
+var answers = new Array(numQues);
+var sel = new Array(numQues);
+var attempts =0;
+var iIdx=0;
+answers[iIdx++] = "-4a-2b;-2b-4a";
+answers[iIdx++] = "-4a;-a4";
+answers[iIdx++] = "-2b;-b2";
+answers[iIdx++] = "-4a+1b;-4a+b;b-4a;1b-4a";
+answers[iIdx++] = "-1b;-b";
+answers[iIdx++] = "-1b;-b";
+answers[iIdx++] = "-4a+3b;3a-4b;+3a-4b";
+answers[iIdx++] = "-2b;2b";
+answers[iIdx++] = "+1b;b;1b";
+answers[iIdx++] = "-2b;2b";
+
+answers[iIdx++] = "-4a";
+answers[iIdx++] = "3b";
+answers[iIdx++] = "5b";
+answers[iIdx++] = "6b";
+answers[iIdx++] = "8b";
+
+-->

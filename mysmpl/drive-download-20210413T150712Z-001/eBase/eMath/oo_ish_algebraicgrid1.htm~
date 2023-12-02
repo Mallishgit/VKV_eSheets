@@ -1,0 +1,141 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Dates</title>
+</head>
+
+<body>
+<script language="javascript" src="../scripts/common.js">
+</script>
+<script language="javascript" src="oo_algebraicgrid2.js">
+</script>
+
+<form method="POST" action="--WEBBOT-SELF--">
+  <!--webbot bot="SaveResults"
+  U-File="D:\aroon\English\worksheets\web\_private\form_results.txt"
+  S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+  <p align="center">&nbsp;</p>
+  <table border="1" width="900" height="542">
+    <tr>
+      <td width="100%" height="19" background="../images/bgd.jpg" colspan="3">
+        <p align="center"><b><span style="mso-bidi-font-style: normal"><font color="#ffffff" face="BRH Kannada" size="5">&nbsp;</font><font color="#ffffff" face="Times New Roman" size="5">Algebraic
+        grid - 2</font></span></b></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="3%" height="486" background="../images/bgd.jpg">&nbsp;</td>
+      <td width="95%" height="486" align="center">
+        <p><font face="BRH Kannada RN" size="5">PÉ¼ÀUÉ
+        PÉ®ªÀÅ ªÀ¸ÀÄÛUÀ¼À ¨É¯É PÉÆnÖzÉ.<br>
+        &nbsp;<img border="0" src="../images/pronou12.jpg" width="68" height="108">£Á£ÀÄ
+        F ¢£ÀUÀ¼À°è F PÉ¼ÀV£À ªÀ¸ÀÄÛUÀ¼À£ÀÄß PÉÆAqÉ.</font></p>
+        <table border="1" width="861">
+          <tr>
+            <td width="309" align="center">
+              <p align="center"><font size="4"><b><font face="BRH Kannada">&nbsp;<img border="0" src="../images/cup.jpg" width="95" height="81"><br>
+              MAzÀgÀ ¨É¯É gÀÆ </font></b></font><i><font face="Comic Sans MS" size="5" color="#0000FF">a</font></i><b><font face="BRH Kannada">
+              .</font></b></p>
+            </td>
+            <td width="302" align="center">
+              <font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/scissors.jpg" width="149" height="83"><br>
+              MAzÀgÀ ¨É¯É gÀÆ </font></b></font><i><font face="Comic Sans MS" size="5" color="#0000FF">2a</font></i><b><font face="BRH Kannada">&nbsp;</font></b></td>
+            <td width="240" align="center">
+              <font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/shoes.JPG" width="162" height="101"><br>
+              MAzÀÄ eÉÆvÉAiÀÄ ¨É¯É gÀÆ </font></b></font><i><font face="Comic Sans MS" size="5" color="#0000FF">2</font></i><i><font face="Comic Sans MS" size="5" color="#0000FF">b</font></i><b><font face="BRH Kannada">&nbsp;</font></b></td>
+          </tr>
+          <tr>
+            <td width="851" align="center" bgcolor="#FFCCCC" colspan="3">
+              <table border="1" width="761">
+                <tr>
+                  <td width="167" bgcolor="#FFFFCC" align="center">&nbsp;</td>
+                  <td width="98" bgcolor="#FFFFCC" align="center"><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/cup.jpg" width="95" height="81"></font></b></font></td>
+                  <td width="101" bgcolor="#FFFFCC" align="center"><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/scissors.jpg" width="149" height="83"> </font></b></font></td>
+                  <td width="108" bgcolor="#FFFFCC" align="center"><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/shoes.JPG" width="162" height="101"> </font></b></font></td>
+                  <td width="157" bgcolor="#FFFFCC" align="center"><font size="4"><b><font face="BRH Kannada">MlÄÖ
+                    ¨É¯É&nbsp;</font></b></font></td>
+                </tr>
+                <tr>
+                  <td width="167" bgcolor="#FFFFCC" align="center"><font size="4" face="Arial">January</font></td>
+                  <td width="170" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">2</font><font size="4"><font face="Arial">&nbsp;</font><b><font face="BRH Kannada"><img border="0" src="../images/cup.jpg" width="42" height="36"></font></b><font face="Arial">
+                    </font><b><font face="BRH Kannada">PÉÆAqÉ&nbsp;<br>
+                    ¨É¯É</font></b><input type="text" name="T32" size="13" style="text-align: Center"></font></td>
+                  <td width="145" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">b
+                    </font><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/scissors.jpg" width="42" height="24"> </font></b></font><font face="Comic Sans MS" size="5" color="#0000FF"><i>
+                    </i></font><font size="4"><font face="BRH Kannada"><b>PÉÆAqÉ&nbsp;<br>
+                    ¨É¯É</b></font><input type="text" name="T33" size="13" style="text-align: Center"></font></td>
+                  <td width="143" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">a
+                    </font><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/shoes.JPG" width="59" height="37"> </font></b></font><font face="Comic Sans MS" size="5" color="#0000FF"><i>
+                    </i></font><font size="4"><font face="BRH Kannada"><b>PÉÆAqÉ&nbsp;<br>
+                    ¨É¯É</b></font><input type="text" name="T33" size="13" style="text-align: Center"></font></td>
+                  <td width="157" bgcolor="#FFFFCC" align="center"><font size="4">&nbsp;= <input type="text" name="T34" size="23" style="text-align: Center"></font></td>
+                </tr>
+                <tr>
+                  <td width="167" bgcolor="#FFFFCC" align="center"><font size="4" face="Arial">February</font></td>
+                  <td width="170" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">b
+                    </font><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/cup.jpg" width="42" height="36"></font></b><font face="Arial">&nbsp;
+                    </font><b><font face="BRH Kannada">PÉÆAqÉ&nbsp;<br>
+                    ¨É¯É</font></b><input type="text" name="T32" size="13" style="text-align: Center"></font></td>
+                  <td width="145" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">2
+                    </font><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/scissors.jpg" width="42" height="24"> </font></b></font><i><font face="Comic Sans MS" size="5" color="#0000FF">
+                    </font></i><b><font face="BRH Kannada">PÉÆAqÉ&nbsp;</font></b><font size="4"><b><font face="BRH Kannada"><br>
+                    ¨É¯É</font></b><input type="text" name="T33" size="13" style="text-align: Center"></font></td>
+                  <td width="143" bgcolor="#FFFFCC" align="center"><font face="Arial" size="4">2a
+                    </font><font size="4"><b><font face="BRH Kannada"><img border="0" src="../images/shoes.JPG" width="59" height="37"> </font></b></font><i><font face="Comic Sans MS" size="5" color="#0000FF">
+                    </font></i><b><font face="BRH Kannada">PÉÆAqÉ&nbsp;</font></b><font size="4"><b><font face="BRH Kannada"><br>
+                    ¨É¯É</font></b><input type="text" name="T33" size="13" style="text-align: Center"></font></td>
+                  <td width="157" bgcolor="#FFFFCC"><font size="4">&nbsp;= <input type="text" name="T35" size="23" style="text-align: Center"></font></td>
+                </tr>
+                <tr>
+                  <td width="136" bgcolor="#FFFFCC" align="center">
+                    <p align="left"><font face="BRH Kannada" size="4"><b>¥Àæw
+                    ªÀ¸ÀÄÛ«£À ªÉÄÃ¯É ªÀiÁrzÀ RZÀÄð.</b></font></p>
+                  </td>
+                  <td width="170" bgcolor="#FFFFCC" align="center"><font size="4"><input type="text" name="T32" size="13" style="text-align: Center"></font></td>
+                  <td width="145" bgcolor="#FFFFCC" align="center"><font size="4"><input type="text" name="T33" size="13" style="text-align: Center"></font></td>
+                  <td width="108" bgcolor="#FFFFCC"><font size="4"><input type="text" name="T37" size="13" style="text-align: Center"></font></td>
+                  <td width="157" bgcolor="#FFFFCC"><font size="4"><b><font face="BRH Kannada">MlÄÖ
+                    RZÀÄð = </font></b><input type="text" name="T36" size="23" style="text-align: Center"></font></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <p><b><font face="BRH Kannada" color="#CC3300" size="5">MlÄÖ ¥Àæ±ÉßUÀ¼ÀÄ</font>
+        = </b><input size="5" name="questions" readonly="True"><b><font face="BRH Kannada" color="#CC3300" size="5"><br>
+        ¥ÀæAiÀÄvÀßzÀ ¨sÁj</font>&nbsp; =</b> <input size="5" name="attempts" readonly="True"><b><font face="BRH Kannada" color="#CC3300" size="5"><br>
+        ¸Àj
+        GvÀÛgÀUÀ¼ÀÄ</font>&nbsp; =</b> <input size="5" name="percentage" readonly="True"></p>
+        <p><br>
+        <b><font face="BRH Kannada" color="#FF0000" size="5"><u>JZÀÑgÀ:</u></font><font face="BRH Kannada" size="4" color="#FF0000">
+        </font><font face="Arial" size="4">3</font><font face="BRH Kannada" size="4">
+        ¨sÁjAiÀÄ ¥ÀæAiÀÄvÀßzÀ £ÀAvÀgÀ §zÀ¯ÁªÀuÉUÉ ªÀÄvÉÛ
+        CªÀPÁ±À«gÀÄªÀÅ¢®è.</font><br>
+        </b><input onclick="checkValuesMulWays(this.form)" value="ªÀiË®å ªÀiÁqÀÄ" type="button" name="GradeMe" style="font-family: BRH Kannada Extra; font-size: 14pt; font-weight: bold">&nbsp;&nbsp;&nbsp;</p>
+        <p><input value="J¯ÁèªÀ£ÀÄß C¼É¸ÀÄ" type="reset" onclick="resetAll(this.form)" name="Clear" style="font-family: BRH Kannada Extra; font-size: 14pt; font-weight: bold"></p>
+        <p><b><font face="BRH Kannada" color="#FF0000" size="5"><u>JZÀÑgÀ:</u></font><font face="BRH Kannada" size="4" color="#FF0000">
+        </font><font face="BRH Kannada" size="4">GvÀÛgÀUÀ¼À£ÀÄß £ÉÆÃrzÀgÉ
+        §zÀ¯ÁªÀuÉUÉ CªÀPÁ±À«gÀÄªÀÅ¢®è.</font></b></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input onclick="showAnswers(this.form)" value="GvÀÛgÀUÀ¼À£ÀÄß vÉÆÃj¸ÀÄ" type="button" name="ShowAnswers" style="font-family: BRH Kannada Extra; font-size: 14pt; font-weight: bold">&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p><br>
+        <br>
+        <textarea type="hidden" name="solutions" rows="11" wrap="virtual" cols="62" readonly="True"></textarea>&nbsp;</p>
+        <p><a href="hm_piramid-algebra-3.htm">Page </a> -3
+      </td>
+      <td width="2%" height="486" background="../images/bgd.jpg">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="100%" height="19" colspan="3" background="../images/bgd.jpg">&nbsp;</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+
+</body>
+
+</html>
